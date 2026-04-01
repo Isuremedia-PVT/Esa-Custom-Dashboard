@@ -1,0 +1,1 @@
+$("#all-table").DataTable({lengthChange:!1}),$("#spot-table").DataTable({lengthChange:!1}),$("#futures-table").DataTable({lengthChange:!1});

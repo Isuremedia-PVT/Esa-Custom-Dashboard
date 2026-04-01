@@ -1,0 +1,1 @@
+$("#product-list-data-table").DataTable();

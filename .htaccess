@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Domain match (with or without www)
+RewriteCond %{HTTP_HOST} ^cocoonbaby\.online$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www\.cocoonbaby\.online$ [NC]
+
+# Exclude error.php so it doesn’t redirect again
+# RewriteCond %{REQUEST_URI} !^/error\.php$ [NC]
+
+# # Redirect all pages to error.php
+# RewriteRule ^.*$ /error.php [L,R=302]

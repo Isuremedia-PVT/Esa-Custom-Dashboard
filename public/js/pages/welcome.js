@@ -1,0 +1,1 @@
+(()=>{let n=0;function o(n){$(".welcome-page-section").addClass("hidden"),$(`#welcome-page-${n}`).removeClass("hidden")}$(".next-button").on("click",(function(){n+=1,o(n)})),$(".back-button").on("click",(function(){n-=1,console.log("currentStep",n),o(n)})),$(".skip-button").on("click",(function(){n=4,o(n)}))})();
