@@ -41,4 +41,4 @@ if (isset($_SESSION['user']['id'])) {
         error_log("Auth check error: " . $e->getMessage());
     }
 }
-?>
+
